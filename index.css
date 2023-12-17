@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+
+.sukun-logo {
+    border-radius: 100px;
+    background: url(), lightgray 50% / cover no-repeat;
+    width: 100px;
+    height: 135px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.butoons{
+
+}
+
+.Login{
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    padding: 15px;
+    margin: 0px 20px 0px 92px 
+
+}
+.Email{
+    width: 100px;
+    background: transparent;
+    font-size: 15px;
+    padding: 8pxpx;
+}
+.Password{
+    width: 100px;
+    background: transparent;
+    font-size: 15px;
+    padding: 8pxpx;
+}
+
+.p-Email{
+    display: contents;
+    font-size: 20px;
+}
+
+.sign-up{
+    border: none;
+    border-radius: 20px;
+    font-size: larger;
+    padding: 15px;
+
+    margin: 0px 20px 0px 0px;
+
+}
+
+.menu-button {
+    display: none;
+    
+  }
+/* welcoome box content */
+  .welcome-box{
+    background: #FEF9F9;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 80%;
+height: 313px;
+text-align: center;
+margin: auto;
+margin-top: 5%;
+}
+
+/* sukun box content */
+
+.content-sukun{
+    display: flex;
+    height: 313px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Welcome{
+    color: #CF8787;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.sukun-cont{
+    mix-blend-mode: darken;
+    color: #4E8D76;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.sukun-logo2{
+    margin-left: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: -22%;
+    border: #FEF9F9 1px solid;
+    border-radius: 100px;
+    background: url(), lightgray 50% / cover no-repeat;
+    width: 132px;
+    height: 135px;
+    position: absolute;
+}
+
+.hr{
+    margin-top: 7%;
+    font-weight: 900;
+    height: 6px;
+    background: black;
+}
+
+ /* Styling for the dropdown button container */
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .drop{
+    text-align: left;
+  }
+
+  /* Styling for the button */
+  .dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Styling for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Styling for the dropdown options */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown content when the button is hovered */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+@media only screen and (max-width: 767px) {
+
+    /* Your mobile styles go here */
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+      }
+      .butoons{
+            display: none;
+      }
+      #myLinks {
+        text-align: center;
+        /* justify-items: center; */
+    }
+      .p-Email{
+        display: none;
+      }
+      .Password{
+        display: none;
+      }
+      .Email{
+        display: none;
+      }
+      .Login{
+        margin: 5px;
+    margin-left: 0%;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    background: white;
+    padding: 15px;
+    
+    }
+    .sign-up {
+        border: none;
+        border-radius: 20px;
+        font-size: larger;
+        padding: 15px;
+        background-color: transparent;
+        margin: 0px 20px 0px 0px;
+    }
+
+      .menu-button {
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        font-size: 5px;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+  
+      .menu-button:hover {
+        background-color: #2980b9;
+      }
+  
+      .menu-icon {
+        display: block;
+        width: 15px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+  
+      .menu-open .bar1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+  
+      .menu-open .bar2 {
+        opacity: 0;
+      }
+  
+      .menu-open .bar3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+      .sukun-logo2 {
+        border: aliceblue;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: -100%;
+        border: #FEF9F9 1px solid;
+        border-radius: 100px;
+        background: url(), lightgray 50% / cover no-repeat;
+        width: 132px;
+        height: 135px;
+        position: absolute;
+    }
+    .hr {
+        margin-top: 29%;
+        font-weight: 900;
+        height: 6px;
+        background: black;
+    }
+
+     }
+  
+  /* Styles for devices with a minimum width of 768 pixels and a maximum width of 1023 pixels (typical for tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet styles go here */
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+      }
+      .butoons{
+            display: none;
+      }
+      #myLinks {
+        text-align: center;
+        /* justify-items: center; */
+    }
+      .p-Email{
+        display: none;
+      }
+      .Password{
+        display: none;
+      }
+      .Email{
+        display: none;
+      }
+      .Login{
+        margin: 5px;
+    margin-left: 0%;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    background: white;
+    padding: 15px;
+    
+    }
+    .sign-up {
+        border: none;
+        border-radius: 20px;
+        font-size: larger;
+        padding: 15px;
+        background-color: transparent;
+        margin: 0px 20px 0px 0px;
+    }
+      .menu-button {
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        font-size: 5px;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+  
+      .menu-button:hover {
+        background-color: #2980b9;
+      }
+  
+      .menu-icon {
+        display: block;
+        width: 15px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+  
+      .menu-open .bar1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+  
+      .menu-open .bar2 {
+        opacity: 0;
+      }
+  
+      .menu-open .bar3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+      .sukun-logo2 {
+        border: aliceblue;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: -42%;
+        border: #FEF9F9 1px solid;
+        border-radius: 100px;
+        background: url(), lightgray 50% / cover no-repeat;
+        width: 132px;
+        height: 135px;
+        position: absolute;
+    }
+    .hr {
+        margin-top: 13%;
+        font-weight: 900;
+        height: 6px;
+        background: black;
+    }
+  }
